@@ -4,7 +4,7 @@ window.onload=()=>{
 }
 
     function crearFormulario(){
-        
+        var contingut=document.getElementById("contingut");
         contingut.innerHTML="";
         
         var form="<form  id=\"formulari_contacte\">"+
