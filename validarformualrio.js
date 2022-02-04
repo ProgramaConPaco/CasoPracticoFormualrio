@@ -1,11 +1,8 @@
-
-window.onload=()=>{
-    crearFormualrio();
-}
+addEventListener("load",crearFormulario);
 
     function crearFormulario(){
         var contingut=document.getElementById("contingut");
-        contingut.innerHTML="";
+
         
         var form="<form  id=\"formulari_contacte\">"+
             "<p>Nom: <input type=\"text\" id=\"nom\" placeholder=\"Escriu el teu nom ...\"></p>"+
@@ -79,5 +76,3 @@ window.onload=()=>{
         }
     }
     
-
-
